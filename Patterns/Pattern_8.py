@@ -1,3 +1,5 @@
+# https://www.geeksforgeeks.org/problems/triangle-pattern-1661493231/1
+
 def printTriangle():
     N = int(input("enter:"))
     for i in range(N):
@@ -8,3 +10,8 @@ def printTriangle():
         print()
 
 printTriangle()
+
+# op:
+# *****
+#  ***
+#   *
