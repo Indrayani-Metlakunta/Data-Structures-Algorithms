@@ -3,14 +3,14 @@
 def printTriangle():
     N = int(input("Enter :"))
     for i in range(1,N+1):
-        for j in range(i):
-            print(i, end=" ")
-        print() 
+        for j in range(N-i+1):
+            print('*', end=" ")
+        print()
 
 printTriangle()
 
 # o/p:
-# 1
-# 2 2
-# 3 3 3
-# 4 4 4 4
+# * * * * 
+# * * *
+# * *
+# *
