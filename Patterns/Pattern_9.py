@@ -19,3 +19,11 @@ def nStarDiamond():
         print()
 
 nStarDiamond()
+
+# op:
+#   *
+#  ***
+# *****
+# *****
+#  ***
+#   *
